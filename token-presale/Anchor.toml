@@ -5,20 +5,20 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-token_presale = "CHKqP8wim3BczkSrsqh6ZKThLYTbEGA5nxDnEbXuZGwB"
+token_presale = "9tagFqyNtjjk3z8N3mcfGvKJshpZWEBGB3UDsv53yjRs"
 
 [programs.devnet]
-token_presale = "CHKqP8wim3BczkSrsqh6ZKThLYTbEGA5nxDnEbXuZGwB"
+token_presale = "9tagFqyNtjjk3z8N3mcfGvKJshpZWEBGB3UDsv53yjRs"
 
 [programs.mainnet]
-token_presale = "CHKqP8wim3BczkSrsqh6ZKThLYTbEGA5nxDnEbXuZGwB"
+token_presale = "9tagFqyNtjjk3z8N3mcfGvKJshpZWEBGB3UDsv53yjRs"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
-wallet = "/root/.config/solana/id.json"
+cluster = "devnet"
+wallet = "./wallet-id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
