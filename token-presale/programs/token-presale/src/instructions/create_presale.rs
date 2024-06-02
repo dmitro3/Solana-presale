@@ -43,6 +43,7 @@ pub fn create_presale(
     presale_info.vesting_schedule = vesting_schedule;
     presale_info.authority = authority.key();
     presale_info.authority1 = authority.key();
+    presale_info.bump = ctx.bumps.presale_info;
     // presale_info.bump = *ctx.bumps.get().unwrap();
     msg!("Presale has created for token: {}", presale_info.token_mint_address);
     Ok(())
