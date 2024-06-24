@@ -5,13 +5,13 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-token_presale = "9tagFqyNtjjk3z8N3mcfGvKJshpZWEBGB3UDsv53yjRs"
+token_presale = "4CQZJe4QcTZf55zywDDp6VFyTYo2dnJJLBDw2zrFv4LU"
 
 [programs.devnet]
-token_presale = "9tagFqyNtjjk3z8N3mcfGvKJshpZWEBGB3UDsv53yjRs"
+token_presale = "4CQZJe4QcTZf55zywDDp6VFyTYo2dnJJLBDw2zrFv4LU"
 
 [programs.mainnet]
-token_presale = "9tagFqyNtjjk3z8N3mcfGvKJshpZWEBGB3UDsv53yjRs"
+token_presale = "4CQZJe4QcTZf55zywDDp6VFyTYo2dnJJLBDw2zrFv4LU"
 
 [registry]
 url = "https://api.apr.dev"
